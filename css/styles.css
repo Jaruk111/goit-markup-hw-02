@@ -1,0 +1,99 @@
+/* колір тексту #212121 */
+/* колір тексту при наведенні #2196F3 */
+/* колір тексту параграфів #757575 */
+/* колір лого #000000 , #2196F3 */
+/* колір тексту футера ##FFFFFF 60% */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+
+}
+
+
+.page {
+    color: var(--primary-text-color);
+    background: #FFFFFF;
+}
+
+/* logo */
+.logo {
+    color: #000000;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+/* site nav */
+.site-nav {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-nav.link.current {
+    color: var(--accent-text-color);
+}
+
+.phone-number {
+    color: var(--secondary-text-color);
+}
+
+/*замовити послугу */
+
+.hero {
+    background: var(--primary-text-color);
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+/* features */
+.feature-list p {
+    color: var(--secondary-text-color);
+}
+
+/* button */
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* наші переваги */
+.section {
+    background: #F5F5F5;
+}
+
+/* наша команда */
+.section-team {
+    background: #F5F4FA;
+}
+
+/* footer */
+.footer {
+    background: #2F303A;
+}
+
+.google-link {
+    color: #FFFFFF
+}
+
+.address,
+{
+color: #FFFFFF;
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-text-color);
+}
