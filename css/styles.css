@@ -8,6 +8,11 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-text-color: #2196F3;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
 
 }
 
@@ -77,6 +82,26 @@
 /* наша команда */
 .section-team {
     background: #F5F4FA;
+}
+
+/* розділи послуг фільтр */
+.services button{
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+}
+.services button:hover,
+.services button:focus
+{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* розділи сайту */
+.section-site h3{
+    color: var(--primary-text-color);
+}
+.section-site p{
+    color: var(--secondary-text-color);
 }
 
 /* footer */
