@@ -11,7 +11,12 @@
 }
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 
 }
@@ -21,28 +26,50 @@ body{
     color: var(--primary-text-color);
     background: #FFFFFF;
 }
+/* HEADER */
 
 /* logo */
 .logo {
     color: #000000;
+    font-family: 'Oleo Script' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.2;
+
+    text-decoration: none;
 }
 
 .logo-web {
     color: #2196F3;
 }
 
+/* contacts list */
+.contact li {
+text-decoration: none;
+} 
+
+
+
 .list {
     list-style: none;
 }
 
 /* site nav */
-.site-nav {
+.site-nav .link{
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-text-color);
+    
 }
 
 .site-nav.link.current {
@@ -61,27 +88,70 @@ body{
 
 .hero-title {
     color: #FFFFFF;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+
+    text-align: center;
 }
 
-/* features */
-.feature-list p {
-    color: var(--secondary-text-color);
-}
 
 /* button */
-.button {
+button {
     color: #FFFFFF;
     background-color: #2196F3;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+
+    cursor: pointer;
 }
 
+
+/* заголовки секцій */
+
+.section-title{
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+
+        text-align: center;
+}
 /* наші переваги */
 .section {
-    background: #F5F5F5;
+    background: #F5F5F5;}
+
+.feature-list .title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+}
+
+.feature-list p {
+    color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 /* наша команда */
 .section-team {
-    background: #F5F4FA;
+    background: #F5F4FA;}
+.team  p{
+    color: #757575;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 /* розділи послуг фільтр */
@@ -97,6 +167,9 @@ body{
 }
 
 /* розділи сайту */
+.section-site{
+    text-decoration: none;
+}
 .section-site h3{
     color: var(--primary-text-color);
 }
@@ -116,7 +189,7 @@ body{
 .address
 {
 color: #FFFFFF;
-}
+text-decoration: none;}
 
 .address .link:hover,
 .address .link:focus {
