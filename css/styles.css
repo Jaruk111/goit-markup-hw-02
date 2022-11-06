@@ -87,6 +87,14 @@ text-decoration: none;
     color: var(--secondary-text-color);
 }
 
+.e-mail{
+    color: var(--secondary-text-color);
+}
+.e-mail:hover,
+.e-mail:focus{
+    color: var(--accent-text-color);
+}
+
 /*замовити послугу */
 
 .hero {
@@ -96,9 +104,7 @@ text-decoration: none;
 .hero-title {
     color: #FFFFFF;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
+    
     font-size: 44px;
     line-height: 1.4;
 
@@ -115,8 +121,6 @@ button {
     color: #FFFFFF;
     background-color: #2196F3;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
@@ -129,7 +133,7 @@ button {
 
 .section-title{
     
-        font-weight: 700;
+       
         font-size: 36px;
         line-height: 1.2;
 
@@ -140,7 +144,7 @@ button {
     background: #F5F5F5;}
 
 .feature-list .title{
-    font-weight: 700;
+    
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 1.14;
@@ -202,24 +206,24 @@ button {
 .address .link{
 color: #FFFFFF;
 
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
     /* or 171% */
 
-    letter-spacing: 0.03em;
+letter-spacing: 0.03em;
 text-decoration: none;}
 
-
-a[href="info@devstudio.com"],
-a[href="+380961111111"]{
-    color: rgba(255, 255, 255, 0.6);
-}
     
 
 .address .link:hover,
 .address .link:focus {
     color: var(--accent-text-color);
+}
+
+.address a[href="info@devstudio.com"],
+.address a[href="+380961111111"] {
+    color: rgba(255, 255, 255, 0.6);
 }
