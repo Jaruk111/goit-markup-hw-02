@@ -11,17 +11,20 @@
 }
 
 body{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.03em;
 
+    text-decoration: none;
+
 
     color: var(--primary-text-color);
 
 }
+
 
 
 .page {
@@ -35,7 +38,7 @@ body{
     color: #000000;
 
 
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -102,6 +105,10 @@ text-decoration: none;
     text-align: center;
 }
 
+.link, .e-mail, .phone-number{
+    text-decoration: none;
+}
+
 
 /* button */
 button {
@@ -139,7 +146,7 @@ button {
     letter-spacing: 1.14;
 }
 
-.feature-list p {
+.text{
     color: var(--secondary-text-color);
 
     font-weight: 400;
@@ -148,8 +155,10 @@ button {
 }
 
 /* наша команда */
-.section-team {
+.section, .section-site {
     background: #F5F4FA;}
+
+
 .team  p{
     color: #757575;
 
@@ -190,10 +199,25 @@ button {
     color: #FFFFFF
 }
 
-.address
-{
+.address .link{
 color: #FFFFFF;
+
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
 text-decoration: none;}
+
+
+a[href="info@devstudio.com"],
+a[href="+380961111111"]{
+    color: rgba(255, 255, 255, 0.6);
+}
+    
 
 .address .link:hover,
 .address .link:focus {
