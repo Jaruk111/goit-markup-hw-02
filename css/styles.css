@@ -71,7 +71,12 @@ font-weight: 500;
 /* site nav */
 
 
-.site-nav .link{
+
+.site-nav .current {
+    color: var(--accent-text-color);
+}
+
+.site-nav .link {
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -79,10 +84,6 @@ font-weight: 500;
     line-height: 1.2;
 
     text-decoration: none;
-}
-
-.site-nav .link.current {
-    color: var(--accent-text-color);
 }
 
 
