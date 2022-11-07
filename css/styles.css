@@ -81,7 +81,7 @@ font-weight: 500;
     text-decoration: none;
 }
 
-.site-nav .link .current {
+.site-nav .link.current {
     color: var(--accent-text-color);
 }
 
