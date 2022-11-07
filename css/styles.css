@@ -10,6 +10,8 @@
     --accent-text-color: #2196F3;
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -24,6 +26,12 @@ body{
     color: var(--primary-text-color);
 
 }
+
+.list .current {
+color: var(--accent-text-color);
+}
+
+
 
 
 
@@ -54,6 +62,8 @@ body{
 /* contacts list */
 .contact li {
 text-decoration: none;
+
+font-weight: 500;
 } 
 
 
@@ -104,7 +114,7 @@ text-decoration: none;
 .hero-title {
     color: #FFFFFF;
 
-    
+    text-transform: uppercase;
     font-size: 44px;
     line-height: 1.4;
 
@@ -117,7 +127,7 @@ text-decoration: none;
 
 
 /* button */
-button {
+.button {
     color: #FFFFFF;
     background-color: #2196F3;
     
@@ -145,9 +155,12 @@ button {
 
 .feature-list .title{
     
+    font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 1.14;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
 }
 
 .text{
@@ -161,20 +174,45 @@ button {
 /* наша команда */
 .section, .section-site {
     background: #F5F4FA;}
+    
+.team h3{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+        /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
 .team  p{
-    color: #757575;
+color: #757575;
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+    /* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
 }
 
 /* розділи послуг фільтр */
 .services button{
     background-color: #F5F4FA;
+
+
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+        /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .services button:hover,
 .services button:focus
@@ -183,12 +221,19 @@ button {
     color: #FFFFFF;
 }
 
-/* розділи сайту */
+/* приклади робіт */
 .section-site{
     text-decoration: none;
 }
-.section-site h3{
+.section-site h2{
     color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+        /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
 }
 .section-site p{
     color: var(--secondary-text-color);
@@ -197,6 +242,9 @@ button {
 /* footer */
 .footer {
     background: #2F303A;
+}
+.footer .logo{
+    color: #FFFFFF;
 }
 
 .google-link {
