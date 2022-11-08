@@ -72,7 +72,7 @@ font-weight: 500;
 
 
 
-.site-nav .current {
+.site-nav .link.current {
     color: var(--accent-text-color);
 }
 
