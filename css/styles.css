@@ -239,6 +239,13 @@ letter-spacing: 0.03em;
 }
 .section-site p{
     color: var(--secondary-text-color);
+
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1,9;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
 }
 
 /* footer */
